@@ -1,0 +1,77 @@
+.main {
+  width: 100%;
+  min-height: 300px;
+  max-height: 80vh;
+  background-color: rgb(31, 32, 35);
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px black;
+  overflow-y: auto;
+
+}
+
+.section {
+    padding: 0px 10px 15px 10px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header i {
+    cursor: pointer;
+    font-size: 22px;
+    color: white;
+}
+
+.goBack i  {
+    color: white;
+    font-size: 22px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+.description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin-top: -15px;
+}
+
+.description span {
+
+    font-size: 14px;
+}
+
+.description i{
+    color: yellow;
+}
+
+@media (max-width: 585px) {
+    .description {
+        margin-top: -5px;
+        justify-content: start;
+    }
+}
+
+.container {
+    margin-top: 15px;
+}
+
+.date {
+    font-size: 14px;
+    color: yellow;
+}
+
+.date i{
+    color: rgb(132, 127, 127);
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.text {
+    margin-left: 15px;
+    overflow-wrap: break-word;
+}

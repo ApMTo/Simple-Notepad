@@ -1,0 +1,11 @@
+.header {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+@media (max-width: 320px) {
+    .header {
+        justify-content: flex-start;
+    }
+}
